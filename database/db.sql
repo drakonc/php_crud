@@ -1,0 +1,6 @@
+CREATE TABLE task(
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    descriptions TEXT,
+    create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
