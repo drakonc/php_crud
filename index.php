@@ -50,7 +50,7 @@
                                 <td><?= $row['descriptions']; ?></td>
                                 <td><?= $row['create_at']; ?></td>
                                 <td>
-                                    <a href="edit_task.php?id=<?= $row['id'];?>" class="btn btn-primary"><i class="fas fa-edit"></i></a>
+                                    <a href="edit_task.php?id=<?= $row['id'];?>" class="btn btn-primary"><i class="fas fa-marker"></i></a>
                                     <a href="delete_task.php?id=<?= $row['id'];?>" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a>
                                 </td>
                             </tr>
